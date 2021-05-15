@@ -29,7 +29,7 @@ export default class Introduction extends Component {
                 <div className={styles.section}>
                     <AutoTyper
                         heading={'Hi!'}
-                        dataText={["I'm a developer","I'm a student","I'm ready to learn"]} 
+                        dataText={["I'm Andrew Chen", "I'm a developer","I'm a student","I'm a lifelong learner"]} 
                     />
                 </div>
             )
