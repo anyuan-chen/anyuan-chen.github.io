@@ -1,6 +1,7 @@
 import AutoTyper from './Components/AutoTyper'
 import styles from './Introduction.module.css'
 import React, { Component } from 'react'
+import Heading from './Components/Heading'
 
 export default class Introduction extends Component {
     state = {width: 0 , height: 0};
@@ -27,7 +28,10 @@ export default class Introduction extends Component {
             )
         }
         return (
-            <h1>Andrew Chen</h1>
+            <div className={styles.section}>
+                <Heading text="Andrew Chen"></Heading>
+            </div>
+            
         )
     }
 }
