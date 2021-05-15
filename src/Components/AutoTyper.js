@@ -36,12 +36,12 @@ export default class AutoTyper extends Component {
             typingSpeed: isDeleting ? 30 : 150 //deleting is faster 
         });
 
-        if (!isDeleting && text == fullText){
+        if (!isDeleting && text === fullText){
             setTimeout(() => {
                 this.setState({isDeleting: true}) //if at end of text switch to deleting
             }, 500)
         }
-        else if (isDeleting && text == ''){
+        else if (isDeleting && text === ''){
             this.setState({
                 isDeleting: false, //if dont deleting stop
                 phraseNumber: phraseNumber + 1 //go to next phrase
@@ -51,7 +51,7 @@ export default class AutoTyper extends Component {
     }
     render() {
         return (
-            <h1> 
+            <h1 className={styles.title}> 
                 {this.props.heading} &nbsp;
                 <span>{this.state.text}</span>
                 <span class={styles.cursor}/>
