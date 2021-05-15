@@ -4,9 +4,10 @@ import React, { Component } from 'react'
 import Heading from './Components/Heading'
 
 export default class Introduction extends Component {
-    state = {width: 0 , height: 0};
+    state = {width: 800 , height: 800};
     componentDidMount() {
         window.addEventListener('resize', this.checkDimensions);
+        this.checkDimensions()
     }
     componentWillUnmount() {
         window.removeEventListener('resize', this.checkDimensions);
@@ -16,8 +17,14 @@ export default class Introduction extends Component {
     }
 
     render() {
-
-        if (this.state.width > 700){
+        if (this.state.width < 700){
+            return (
+                <div className={styles.section}>
+                    <Heading text="Andrew Chen"></Heading>
+                </div>
+            )
+        }
+        else{
             return (
                 <div className={styles.section}>
                     <AutoTyper
@@ -27,11 +34,6 @@ export default class Introduction extends Component {
                 </div>
             )
         }
-        return (
-            <div className={styles.section}>
-                <Heading text="Andrew Chen"></Heading>
-            </div>
-            
-        )
+        
     }
 }
