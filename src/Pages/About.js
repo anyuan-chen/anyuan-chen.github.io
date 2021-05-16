@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Heading from "../Components/Heading";
+import Icon from "../Components/Icon";
 import styles from "./About.module.css";
 // import picture from "../Assets/headshot.png";             <img src={picture} alt="Andrew Chen" className={styles.headshot} />
 
@@ -29,9 +30,19 @@ export default class About extends Component {
                 >
                   here
                 </a>
-                , or checkout my projects below.
+                , check out my online presence, or view my projects below.
               </p>
             </div>
+          </div>
+          <div className={styles.icons}>
+            <Icon
+              url="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              whereto="https://github.com/anyuan-chen"
+            ></Icon>
+            <Icon
+              url="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
+              whereto="https://www.linkedin.com/in/achenn/"
+            ></Icon>
           </div>
         </div>
       </div>
