@@ -27,7 +27,7 @@ export default function Projects() {
       <Project
         title="Temperature Converter"
         description="Temperature converter built using Swift and SwiftUI."
-        imageLink="https://anyuan-chen.github.io/website/temperatureConverter.png"
+        imageLink="https://anyuan-chen.github.io/website/temperatureconverter.png"
         link="https://github.com/anyuan-chen/TemperatureConverter"
       ></Project>
     </div>
