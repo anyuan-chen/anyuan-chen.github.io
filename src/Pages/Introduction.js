@@ -1,8 +1,8 @@
-import AutoTyper from './Components/AutoTyper'
+import AutoTyper from '../Components/AutoTyper'
 import styles from './Introduction.module.css'
 import React, { Component } from 'react'
-import Heading from './Components/Heading'
-import DownArrow from './Components/DownArrow';
+import Heading from '../Components/Heading'
+import DownArrow from '../Components/DownArrow';
 
 export default class Introduction extends Component {
     state = {width: 800 , height: 800};
