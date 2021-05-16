@@ -5,7 +5,7 @@ import Projects from './Projects'
 
 export default function App() {
     return (
-        <div>
+        <div styles="display:flex; align-items:center;">
             <Introduction></Introduction>
             <About></About>
             <Projects></Projects>
