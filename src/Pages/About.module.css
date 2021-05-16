@@ -22,12 +22,12 @@
 }
 
 .paragraph b {
-  background-color: rgba(203, 220, 239, 70%);
+  font-size: 1.1em;
 }
 .paragraph a {
   background-color: rgba(203, 220, 239, 70%);
   font-weight: 1000;
-  text-decoration: underline;
+  text-decoration: none;
   color: black
 }
 

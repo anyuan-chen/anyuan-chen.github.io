@@ -16,12 +16,12 @@ export default class About extends Component {
                 a passion for technology, especially for{" "}
                 <b>data visualization</b> and <b>software</b>. On a given day,
                 you can catch me working on <b>competitive programming</b>{" "}
-                solutions using Java or developing a new <b>web app</b>.
+                solutions or developing a new <b>web app</b>.
               </p>
               <p className={styles.paragraph}>
                 Feel free to contact me at{" "}
                 <b>andrew.chen.anyuan (at-symbol) gmail.com</b>, download my
-                resume by clicking {" "}
+                resume by clicking{" "}
                 <a
                   href="https://anyuan-chen.github.io/website/AndrewChenHSResume.pdf"
                   className={styles.link}
@@ -29,7 +29,7 @@ export default class About extends Component {
                 >
                   here
                 </a>
-                , or checkout my projects below. 
+                , or checkout my projects below.
               </p>
             </div>
           </div>
