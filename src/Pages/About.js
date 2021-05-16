@@ -10,7 +10,7 @@ export default class About extends Component {
         <div className={styles.container}>
           <Heading text="About Me"></Heading>
           <div className={styles.lower}>
-            <div className= {styles.paragraphContainer}>
+            <div className={styles.paragraphContainer}>
               <p className={styles.paragraph}>
                 I'm a 16 year old student developer from Toronto, Canada. I have
                 a passion for technology, especially for{" "}
@@ -19,9 +19,17 @@ export default class About extends Component {
                 solutions using Java or developing a new <b>web app</b>.
               </p>
               <p className={styles.paragraph}>
-                Feel free to contact me at <b>andrew.chen.anyuan (at-symbol)
-                gmail.com</b>, download my resume by clicking 
-                <a href = "../Assets/AndrewChenHSResume.pdf" download>here</a>
+                Feel free to contact me at{" "}
+                <b>andrew.chen.anyuan (at-symbol) gmail.com</b>, download my
+                resume by clicking {" "}
+                <a
+                  href="https://anyuan-chen.github.io/website/AndrewChenHSResume.pdf"
+                  className={styles.link}
+                  download
+                >
+                  here
+                </a>
+                , or checkout my projects below. 
               </p>
             </div>
           </div>
