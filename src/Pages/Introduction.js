@@ -30,7 +30,7 @@ export default class Introduction extends Component {
                 <div className={styles.section}>
                     <AutoTyper
                         heading={'Hi!'}
-                        dataText={["I'm Andrew Chen", "adf;jdsakfjds","fslkfjlsdkfl","dfsldkjfdlsfjlk"]} 
+                        dataText={["I'm Andrew Chen", "I'm a student","I'm a developer","I'm a learner"]} 
                     />
                     <DownArrow></DownArrow>
                 </div>
