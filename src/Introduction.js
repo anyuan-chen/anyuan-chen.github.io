@@ -2,6 +2,7 @@ import AutoTyper from './Components/AutoTyper'
 import styles from './Introduction.module.css'
 import React, { Component } from 'react'
 import Heading from './Components/Heading'
+import DownArrow from './Components/DownArrow';
 
 export default class Introduction extends Component {
     state = {width: 800 , height: 800};
@@ -31,6 +32,7 @@ export default class Introduction extends Component {
                         heading={'Hi!'}
                         dataText={["I'm Andrew Chen", "I'm a developer","I'm a student","I'm a lifelong learner"]} 
                     />
+                    <DownArrow></DownArrow>
                 </div>
             )
         }
