@@ -24,7 +24,7 @@ export default class About extends Component {
                 <b>andrew.chen.anyuan (at-symbol) gmail.com</b>, download my
                 resume by clicking{" "}
                 <a
-                  href="https://anyuan-chen.github.io/website/AndrewChenHSResume.pdf"
+                  href="https://anyuan-chen.github.io/AndrewChenHSResume.pdf"
                   className={styles.link}
                   download
                 >

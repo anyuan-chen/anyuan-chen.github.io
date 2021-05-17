@@ -11,25 +11,25 @@ export default function Projects() {
         <Project
           title="Connect 4"
           description="Play with another player or with the computer. A connect 4 implementation based on object-oriented programming."
-          imageLink="https://anyuan-chen.github.io/website/connect4.png"
+          imageLink="https://anyuan-chen.github.io/connect4.png"
           link="https://github.com/anyuan-chen/connect4"
         ></Project>
         <Project
           title="Personal Page"
           description="Portfolio website built using React."
-          imageLink="https://anyuan-chen.github.io/website/personalwebsite.png"
-          link="https://github.com/anyuan-chen/website"
+          imageLink="https://anyuan-chen.github.io/personalwebsite.png"
+          link="https://github.com/anyuan-chen/anyuan-chen.github.io"
         ></Project>
         <Project
           title="Competitive Programming"
           description="Solutions to competitive programming solutions in C++ and Swift"
-          imageLink="https://anyuan-chen.github.io/website/competitive-programming.png"
+          imageLink="https://anyuan-chen.github.io/competitive-programming.png"
           link="https://github.com/anyuan-chen/competitive-programming"
         ></Project>
         <Project
           title="Temperature Converter"
           description="Temperature converter built using Swift and SwiftUI."
-          imageLink="https://anyuan-chen.github.io/website/temperatureconverter.png"
+          imageLink="https://anyuan-chen.github.io/temperatureconverter.png"
           link="https://github.com/anyuan-chen/TemperatureConverter"
         ></Project>
       </div>
