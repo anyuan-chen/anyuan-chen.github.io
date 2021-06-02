@@ -30,7 +30,9 @@ export default class About extends Component {
                 >
                   here
                 </a>
-                , check out my online presence, or view my projects below.
+                , check out my blog{" "}
+                <a href="https://blog.andrewchen.tech">here</a>or view my
+                projects below.
               </p>
             </div>
           </div>
