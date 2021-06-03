@@ -7,4 +7,4 @@ export default function Icon(props) {
             <img src={props.url} className={styles.icon}></img>
         </a>
     )
-}
+} 
